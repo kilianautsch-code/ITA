@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const packages = [
   {
     name: "Remote-Service",
-    price: "ab 85 €",
+    price: "ab 60 €",
     unit: "/ Stunde",
     desc: "Schnelle Hilfe bei Netzwerkproblemen – ohne Anfahrt, direkt aus der Ferne.",
     features: [
@@ -26,7 +26,7 @@ const packages = [
   },
   {
     name: "Vor-Ort-Service",
-    price: "ab 95 €",
+    price: "ab 85 €",
     unit: "/ Stunde",
     desc: "Installation, Verkabelung und Entstörung direkt bei Ihnen am Standort.",
     features: [

@@ -47,8 +47,8 @@ const services = [
   },
   {
     icon: MonitorSmartphone,
-    title: "Und alles, was dazugehört",
-    desc: "Von WLAN-Ausleuchtung bis Support: Wir kümmern uns um die Details rund um Ihre IT-Infrastruktur.",
+    title: "Individuelle Projekte",
+    desc: "Wir entwickeln individuelle Lösungen, abgestimmt auf Ihre Anforderungen und die Gegebenheiten vor Ort",
   },
 ]
 

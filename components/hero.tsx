@@ -19,7 +19,7 @@ export function Hero() {
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
             <span className="font-mono text-xs uppercase tracking-wider text-primary">
-              Netzwerk · Glasfaser · Infrastruktur
+              Netzwerk · IT-Service · Systemtechnik
             </span>
           </div>
 

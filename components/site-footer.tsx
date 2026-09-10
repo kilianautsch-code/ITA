@@ -34,9 +34,10 @@ export function SiteFooter() {
             <div>
               <p className="font-mono text-xs uppercase tracking-wider text-foreground">Unternehmen</p>
               <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                <li><a href="#vorgehen" className="transition-colors hover:text-foreground">Vorgehen</a></li>
-                <li><a href="#warum" className="transition-colors hover:text-foreground">Warum ITA</a></li>
-                <li><a href="#kontakt" className="transition-colors hover:text-foreground">Kontakt</a></li>
+                <li><a href="/#vorgehen" className="transition-colors hover:text-foreground">Vorgehen</a></li>
+                <li><a href="/#warum" className="transition-colors hover:text-foreground">Warum ITA</a></li>
+                <li><a href="/kosten" className="transition-colors hover:text-foreground">Kosten</a></li>
+                <li><a href="/#kontakt" className="transition-colors hover:text-foreground">Kontakt</a></li>
               </ul>
             </div>
           </div>
@@ -45,8 +46,8 @@ export function SiteFooter() {
         <div className="mt-10 flex flex-col justify-between gap-4 border-t border-border/60 pt-6 text-xs text-muted-foreground sm:flex-row">
           <p>© {new Date().getFullYear()} IT-Dienstleistung Autsch (ITA). Alle Rechte vorbehalten.</p>
           <div className="flex gap-6">
-            <a href="#" className="transition-colors hover:text-foreground">Impressum</a>
-            <a href="#" className="transition-colors hover:text-foreground">Datenschutz</a>
+            <a href="/impressum" className="transition-colors hover:text-foreground">Impressum</a>
+            <a href="/datenschutz" className="transition-colors hover:text-foreground">Datenschutz</a>
           </div>
         </div>
       </div>

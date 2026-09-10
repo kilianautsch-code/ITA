@@ -30,13 +30,13 @@ export function Contact() {
                 <span className="flex h-9 w-9 items-center justify-center rounded-md border border-border bg-secondary text-primary">
                   <Phone className="h-4 w-4" />
                 </span>
-                +49 (0) 000 000 000
+                +49 176 31349018
               </a>
               <a href="mailto:kontakt@ita-service.de" className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
                 <span className="flex h-9 w-9 items-center justify-center rounded-md border border-border bg-secondary text-primary">
                   <Mail className="h-4 w-4" />
                 </span>
-                kontakt@ita-service.de
+info@ita-net.de
               </a>
               <div className="flex items-center gap-3 text-sm text-muted-foreground">
                 <span className="flex h-9 w-9 items-center justify-center rounded-md border border-border bg-secondary text-primary">

@@ -7,7 +7,7 @@ import { SiteFooter } from "@/components/site-footer"
 export const metadata: Metadata = {
   title: "Kosten & Preise | IT-Dienstleistung Autsch (ITA)",
   description:
-    "Transparente Kosten für Netzwerkplanung, Glasfaser, Standortvernetzung und IT-Service. Stundensätze, Service-Pakete und individuelle Projektangebote von ITA.",
+    "Transparente Kosten für Netzwerkplanung, Glasfaser, Standortvernetzung und IT-Service. Stundensätze, Anfahrt und individuelle Projektangebote von ITA.",
 }
 
 const packages = [
@@ -52,11 +52,12 @@ const packages = [
   },
 ]
 
+
 const notes = [
   "Alle Preise verstehen sich zzgl. der gesetzlichen Mehrwertsteuer.",
   "Der genaue Aufwand hängt vom Umfang und den Gegebenheiten vor Ort ab.",
-  "Fahrtkosten: innerhalb Schwerins pauschal 15 €, außerhalb  0,45 € / km zzgl. 60,00 € / Stunde für die Reisezeit.",
-  "Vor-Ort-Einsätze werden mit mindestens 1 Stunde abgerechnet.",
+  "Für wiederkehrende Betreuung bieten wir individuelle Service-Vereinbarungen an.",
+  "Fahrtkosten: 0,45 € / km zzgl. 60,00 € / Stunde für die Reisezeit.",
 ]
 
 export default function KostenPage() {

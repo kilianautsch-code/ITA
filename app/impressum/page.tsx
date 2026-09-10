@@ -22,9 +22,9 @@ export default function ImpressumPage() {
             <div className="mt-10 flex flex-col gap-8">
               <Block title="Angaben gemäß § 5 DDG">
                 <p>IT-Dienstleistung Autsch (ITA)</p>
-                <p>Kilian Autsch</p>
-                <p>Musterstraße 1</p>
-                <p>00000 Musterstadt</p>
+                <p>Thore Kilian-Autsch</p>
+                <p>Friedrich-Schlie-Straße 25</p>
+                <p>19061 Schwerin</p>
                 <p>Deutschland</p>
               </Block>
 
@@ -37,14 +37,14 @@ export default function ImpressumPage() {
                 <p>
                   Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
                   <br />
-                  DE000000000
+                  DE428907254
                 </p>
               </Block>
 
               <Block title="Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV">
-                <p>Kilian Autsch</p>
-                <p>Musterstraße 1</p>
-                <p>00000 Musterstadt</p>
+                <p>Thore Kilian-Autsch</p>
+                <p>Friedrich-Schlie-Straße 25</p>
+                <p>19061 Schwerin</p>
               </Block>
 
               <Block title="Haftung für Inhalte">
@@ -75,10 +75,6 @@ export default function ImpressumPage() {
                 </p>
               </Block>
 
-              <p className="text-xs leading-relaxed text-muted-foreground">
-                Hinweis: Bitte ersetzen Sie die Platzhalter (Adresse, USt-IdNr.) durch Ihre tatsächlichen
-                Angaben.
-              </p>
             </div>
           </div>
         </section>

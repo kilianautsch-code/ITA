@@ -31,8 +31,8 @@ export default function DatenschutzPage() {
                   Verantwortlich für die Datenverarbeitung auf dieser Website ist:
                 </p>
                 <p>IT-Dienstleistung Autsch (ITA)</p>
-                <p>Kilian Autsch</p>
-                <p>Musterstraße 1, 00000 Musterstadt</p>
+                <p>Thore Kilian-Autsch</p>
+                <p>Friedrich-Schlie-Straße 25<br />19061 Schwerin</p>
                 <p>E-Mail: info@ita-net.de</p>
               </Block>
 
@@ -88,10 +88,6 @@ export default function DatenschutzPage() {
                 </p>
               </Block>
 
-              <p className="text-xs leading-relaxed text-muted-foreground">
-                Hinweis: Diese Datenschutzerklärung ist eine allgemeine Vorlage und ersetzt keine
-                Rechtsberatung. Bitte passen Sie die Angaben an Ihre tatsächlichen Verhältnisse an.
-              </p>
             </div>
           </div>
         </section>

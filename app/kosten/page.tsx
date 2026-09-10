@@ -63,6 +63,7 @@ const notes = [
   "Der genaue Aufwand hängt vom Umfang und den Gegebenheiten vor Ort ab.",
   "Für wiederkehrende Betreuung bieten wir individuelle Service-Vereinbarungen an.",
   "Fahrtkosten: innerhalb Schwerins pauschal 15 €, außerhalb 0,45 €/km ab Betriebsstandort.",
+  "Vor-Ort-Einsätze werden mit mindestens 1 Stunde abgerechnet.",
 ]
 
 export default function KostenPage() {

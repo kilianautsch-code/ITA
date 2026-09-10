@@ -5,10 +5,11 @@ import { Menu, X } from "lucide-react"
 import { Logo } from "./logo"
 
 const navItems = [
-  { label: "Leistungen", href: "#leistungen" },
-  { label: "Vorgehen", href: "#vorgehen" },
-  { label: "Warum ITA", href: "#warum" },
-  { label: "Kontakt", href: "#kontakt" },
+  { label: "Leistungen", href: "/#leistungen" },
+  { label: "Vorgehen", href: "/#vorgehen" },
+  { label: "Warum ITA", href: "/#warum" },
+  { label: "Kosten", href: "/kosten" },
+  { label: "Kontakt", href: "/#kontakt" },
 ]
 
 export function SiteHeader() {

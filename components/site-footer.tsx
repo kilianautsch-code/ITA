@@ -34,9 +34,10 @@ export function SiteFooter() {
             <div>
               <p className="font-mono text-xs uppercase tracking-wider text-foreground">Unternehmen</p>
               <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                <li><a href="#vorgehen" className="transition-colors hover:text-foreground">Vorgehen</a></li>
-                <li><a href="#warum" className="transition-colors hover:text-foreground">Warum ITA</a></li>
-                <li><a href="#kontakt" className="transition-colors hover:text-foreground">Kontakt</a></li>
+                <li><a href="/#vorgehen" className="transition-colors hover:text-foreground">Vorgehen</a></li>
+                <li><a href="/#warum" className="transition-colors hover:text-foreground">Warum ITA</a></li>
+                <li><a href="/kosten" className="transition-colors hover:text-foreground">Kosten</a></li>
+                <li><a href="/#kontakt" className="transition-colors hover:text-foreground">Kontakt</a></li>
               </ul>
             </div>
           </div>

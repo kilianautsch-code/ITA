@@ -26,13 +26,13 @@ export function Contact() {
             </p>
 
             <div className="mt-8 space-y-4">
-              <a href="tel:+490000000000" className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
+              <a href="tel:+4917631349018" className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
                 <span className="flex h-9 w-9 items-center justify-center rounded-md border border-border bg-secondary text-primary">
                   <Phone className="h-4 w-4" />
                 </span>
                 +49 176 31349018
               </a>
-              <a href="mailto:kontakt@ita-service.de" className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
+              <a href="mailto:info@ita-net.de" className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground">
                 <span className="flex h-9 w-9 items-center justify-center rounded-md border border-border bg-secondary text-primary">
                   <Mail className="h-4 w-4" />
                 </span>

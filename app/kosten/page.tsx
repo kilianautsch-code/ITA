@@ -52,11 +52,17 @@ const packages = [
   },
 ]
 
+const priceTable = [
+  { label: "IT-Service / Arbeitszeit", private: "85 €/h", business: "85 €/h" },
+  { label: "Fahrtkosten", private: "0,45 €/km", business: "0,45 €/km" },
+  { label: "Reisezeit", private: "inklusive", business: "60 €/h" },
+]
+
 const notes = [
   "Alle Preise verstehen sich zzgl. der gesetzlichen Mehrwertsteuer.",
   "Der genaue Aufwand hängt vom Umfang und den Gegebenheiten vor Ort ab.",
-  "Fahrtkosten: innerhalb Schwerins pauschal 15 €, außerhalb  0,45 € / km zzgl. 60,00 € / Stunde für die Reisezeit.",
-  "Vor-Ort-Einsätze werden mit mindestens 1 Stunde abgerechnet.",
+  "Für wiederkehrende Betreuung bieten wir individuelle Service-Vereinbarungen an.",
+  "Fahrtkosten: innerhalb Schwerins pauschal 15 €, außerhalb 0,45 €/km ab Betriebsstandort.",
 ]
 
 export default function KostenPage() {
@@ -116,6 +122,46 @@ export default function KostenPage() {
                   </Link>
                 </div>
               ))}
+            </div>
+
+            <div className="mt-16 max-w-3xl">
+              <h2 className="text-balance text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+                Preise für Privat- und Gewerbekunden
+              </h2>
+              <p className="mt-3 text-pretty text-sm leading-relaxed text-muted-foreground">
+                Privatkunden erhalten einen einfachen Endpreis, während bei Gewerbekunden die
+                tatsächlich aufgewendete Zeit vollständig abgebildet wird.
+              </p>
+
+              <div className="mt-6 overflow-hidden rounded-lg border border-border">
+                <div className="grid grid-cols-3 border-b border-border bg-secondary">
+                  <div className="px-4 py-3 font-mono text-[11px] uppercase tracking-wider text-muted-foreground sm:px-6">
+                    Leistung
+                  </div>
+                  <div className="px-4 py-3 text-right font-mono text-[11px] uppercase tracking-wider text-muted-foreground sm:px-6">
+                    Privatkunden
+                  </div>
+                  <div className="px-4 py-3 text-right font-mono text-[11px] uppercase tracking-wider text-muted-foreground sm:px-6">
+                    Gewerbekunden
+                  </div>
+                </div>
+                {priceTable.map((row, i) => (
+                  <div
+                    key={row.label}
+                    className={`grid grid-cols-3 items-center bg-card ${
+                      i !== priceTable.length - 1 ? "border-b border-border" : ""
+                    }`}
+                  >
+                    <div className="px-4 py-4 text-sm text-foreground sm:px-6">{row.label}</div>
+                    <div className="px-4 py-4 text-right text-sm tabular-nums text-muted-foreground sm:px-6">
+                      {row.private}
+                    </div>
+                    <div className="px-4 py-4 text-right text-sm tabular-nums text-muted-foreground sm:px-6">
+                      {row.business}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
 
             <ul className="mt-10 flex flex-col gap-2">

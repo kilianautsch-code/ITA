@@ -11,7 +11,7 @@ export function SiteFooter() {
               <span className="flex flex-col leading-none">
                 <span className="font-mono text-sm font-semibold tracking-widest text-foreground">ITA</span>
                 <span className="text-[10px] uppercase tracking-wider text-muted-foreground">
-                  IT-Dienstleistung Autsch
+                  IT-Service Autsch
                 </span>
               </span>
             </div>
@@ -44,7 +44,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-10 flex flex-col justify-between gap-4 border-t border-border/60 pt-6 text-xs text-muted-foreground sm:flex-row">
-          <p>© {new Date().getFullYear()} IT-Dienstleistung Autsch (ITA). Alle Rechte vorbehalten.</p>
+          <p>© {new Date().getFullYear()} IT-Service Autsch (ITA). Alle Rechte vorbehalten.</p>
           <div className="flex gap-6">
             <a href="/impressum" className="transition-colors hover:text-foreground">Impressum</a>
             <a href="/datenschutz" className="transition-colors hover:text-foreground">Datenschutz</a>

@@ -3,8 +3,8 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 
 export const metadata: Metadata = {
-  title: "Impressum | IT-Dienstleistung Autsch (ITA)",
-  description: "Impressum und Anbieterkennzeichnung der IT-Dienstleistung Autsch (ITA) gemäß § 5 DDG.",
+  title: "Impressum | IT-Service Autsch (ITA)",
+  description: "Impressum und Anbieterkennzeichnung der IT-Service Autsch (ITA) gemäß § 5 DDG.",
 }
 
 export default function ImpressumPage() {
@@ -21,7 +21,7 @@ export default function ImpressumPage() {
 
             <div className="mt-10 flex flex-col gap-8">
               <Block title="Angaben gemäß § 5 DDG">
-                <p>IT-Dienstleistung Autsch (ITA)</p>
+                <p>IT-Service Autsch (ITA)</p>
                 <p>Thore Kilian-Autsch</p>
                 <p>Friedrich-Schlie-Straße 25</p>
                 <p>19061 Schwerin</p>

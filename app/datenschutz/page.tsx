@@ -30,7 +30,7 @@ export default function DatenschutzPage() {
                 <p>
                   Verantwortlich für die Datenverarbeitung auf dieser Website ist:
                 </p>
-                <p>IT-Dienstleistung Autsch (ITA)</p>
+                <p>IT-Service Autsch (ITA)</p>
                 <p>Thore Kilian-Autsch</p>
                 <p>Friedrich-Schlie-Straße 25<br />19061 Schwerin</p>
                 <p>E-Mail: info@ita-net.de</p>

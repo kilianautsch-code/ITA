@@ -28,7 +28,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-            IT-Dienstleistung Autsch (ITA) plant, baut und betreut Ihre Netzwerke – von der
+            IT-Service Autsch (ITA) plant, baut und betreut Ihre Netzwerke – von der
             Topologie-Dokumentation über Standortvernetzung und Glasfaser-Spleißen bis zu
             Kameratechnik und Speicherlösungen. Zuverlässig per Remote-Service und vor Ort.
           </p>

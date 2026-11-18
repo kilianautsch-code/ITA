@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'IT-Dienstleistung Autsch (ITA) | Netzwerk, Glasfaser & IT-Infrastruktur',
+  title: 'IT-Service Autsch (ITA) | Netzwerk, Glasfaser & IT-Infrastruktur',
   description:
-    'ITA – IT-Dienstleistung Autsch: Netzwerkplanung & Dokumentation, Entstörung, Glasfaser-Spleißen (LWL), Standortvernetzung, Kameratechnik und Speicherlösungen. Zuverlässiger Remote- und Vor-Ort-Service.',
+    'ITA – IT-Service Autsch: Netzwerkplanung & Dokumentation, Entstörung, Glasfaser-Spleißen (LWL), Standortvernetzung, Kameratechnik und Speicherlösungen. Zuverlässiger Remote- und Vor-Ort-Service.',
   generator: 'v0.app',
 }
 

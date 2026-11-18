@@ -23,7 +23,7 @@ export function SiteHeader() {
           <span className="flex flex-col leading-none">
             <span className="font-mono text-sm font-semibold tracking-widest text-foreground">ITA</span>
             <span className="text-[10px] uppercase tracking-wider text-muted-foreground">
-              IT-Dienstleistung Autsch
+              IT-Service Autsch
             </span>
           </span>
         </a>

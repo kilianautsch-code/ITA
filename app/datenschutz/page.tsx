@@ -3,9 +3,9 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 
 export const metadata: Metadata = {
-  title: "Datenschutzerklärung | IT-Dienstleistung Autsch (ITA)",
+  title: "Datenschutzerklärung | IT-Service Autsch (ITA)",
   description:
-    "Datenschutzerklärung der IT-Dienstleistung Autsch (ITA) – Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.",
+    "Datenschutzerklärung der IT-Service Autsch (ITA) – Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.",
 }
 
 export default function DatenschutzPage() {

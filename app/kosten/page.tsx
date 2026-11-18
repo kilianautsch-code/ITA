@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 
 export const metadata: Metadata = {
-  title: "Kosten & Preise | IT-Dienstleistung Autsch (ITA)",
+  title: "Kosten & Preise | IT-Service Autsch (ITA)",
   description:
     "Transparente Kosten für Netzwerkplanung, Glasfaser, Standortvernetzung und IT-Service. Stundensätze, Anfahrt und individuelle Projektangebote von ITA.",
 }

@@ -59,7 +59,7 @@ export function Services() {
         <div className="max-w-2xl">
           <span className="font-mono text-xs uppercase tracking-widest text-primary">01 — Leistungen</span>
           <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            Sämtliche IT-Dienstleistungen aus einer Hand
+            IT-Service aus einer Hand
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
             Ganz gleich, ob geplant oder im Störungsfall – ITA bringt Ihre Netzwerke in Form und hält sie

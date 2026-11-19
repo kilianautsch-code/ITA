@@ -1,16 +1,6 @@
-"use client"
-
-import { useState } from "react"
-import { Mail, Phone, MapPin, Send } from "lucide-react"
+import { Mail, Phone, MapPin, ArrowRight } from "lucide-react"
 
 export function Contact() {
-  const [sent, setSent] = useState(false)
-
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault()
-    setSent(true)
-  }
-
   return (
     <section id="kontakt" className="py-20 md:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -47,80 +37,24 @@ info@ita-net.de
             </div>
           </div>
 
-          {sent ? (
-            <div className="flex flex-col items-start justify-center rounded-md border border-primary/30 bg-primary/5 p-8">
-              <div className="flex h-11 w-11 items-center justify-center rounded-full bg-primary/15 text-primary">
-                <Send className="h-5 w-5" />
-              </div>
-              <h3 className="mt-4 text-lg font-medium text-foreground">Vielen Dank!</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                Ihre Anfrage ist eingegangen. Wir melden uns so schnell wie möglich bei Ihnen.
-              </p>
+          <div className="flex flex-col items-start justify-center rounded-md border border-border bg-background/40 p-8">
+            <div className="flex h-11 w-11 items-center justify-center rounded-full bg-primary/15 text-primary">
+              <Mail className="h-5 w-5" aria-hidden="true" />
             </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="grid gap-4">
-              <div className="grid gap-4 sm:grid-cols-2">
-                <Field label="Name" name="name" placeholder="Ihr Name" required />
-                <Field label="Firma" name="firma" placeholder="Firmenname" />
-              </div>
-              <div className="grid gap-4 sm:grid-cols-2">
-                <Field label="E-Mail" name="email" type="email" placeholder="name@firma.de" required />
-                <Field label="Telefon" name="telefon" type="tel" placeholder="Optional" />
-              </div>
-              <div className="flex flex-col gap-1.5">
-                <label htmlFor="nachricht" className="text-xs font-medium text-foreground">
-                  Ihr Anliegen
-                </label>
-                <textarea
-                  id="nachricht"
-                  name="nachricht"
-                  rows={4}
-                  required
-                  placeholder="Beschreiben Sie kurz Ihr Projekt oder Ihre Störung…"
-                  className="rounded-md border border-input bg-background px-3 py-2.5 text-sm text-foreground outline-none transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:ring-1 focus:ring-primary"
-                />
-              </div>
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
-              >
-                Anfrage absenden
-                <Send className="h-4 w-4" />
-              </button>
-            </form>
-          )}
+            <h3 className="mt-4 text-lg font-medium text-foreground">Schreiben Sie uns eine E-Mail</h3>
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+              Ihr E-Mail-Programm öffnet eine neue Nachricht an info@ita-net.de. Beschreiben Sie darin einfach Ihr Anliegen.
+            </p>
+            <a
+              href="mailto:info@ita-net.de?subject=Anfrage%20an%20IT-Service%20Autsch"
+              className="mt-6 inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            >
+              E-Mail schreiben
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
-  )
-}
-
-function Field({
-  label,
-  name,
-  type = "text",
-  placeholder,
-  required,
-}: {
-  label: string
-  name: string
-  type?: string
-  placeholder?: string
-  required?: boolean
-}) {
-  return (
-    <div className="flex flex-col gap-1.5">
-      <label htmlFor={name} className="text-xs font-medium text-foreground">
-        {label}
-      </label>
-      <input
-        id={name}
-        name={name}
-        type={type}
-        required={required}
-        placeholder={placeholder}
-        className="rounded-md border border-input bg-background px-3 py-2.5 text-sm text-foreground outline-none transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:ring-1 focus:ring-primary"
-      />
-    </div>
   )
 }

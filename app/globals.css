@@ -163,3 +163,29 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes network-led-blink {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 8px currentColor;
+  }
+  45% {
+    opacity: 0.35;
+    box-shadow: 0 0 2px currentColor;
+  }
+}
+
+.network-led-activity {
+  animation: network-led-blink 1.7s ease-in-out infinite;
+}
+
+.network-led-activity-delayed {
+  animation: network-led-blink 2.1s ease-in-out 700ms infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .network-led-activity,
+  .network-led-activity-delayed {
+    animation: none;
+  }
+}

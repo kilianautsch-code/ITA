@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: 'IT-Service Autsch (ITA) | Netzwerk, Glasfaser & IT-Infrastruktur',
   description:
     'ITA – IT-Service Autsch: Netzwerkplanung & Dokumentation, Entstörung, Glasfaser-Spleißen (LWL), Standortvernetzung, Kameratechnik und Speicherlösungen. Zuverlässiger Remote- und Vor-Ort-Service.',
+  icons: {
+    icon: '/favicon.png',
+  },
   generator: 'v0.app',
 }
 
